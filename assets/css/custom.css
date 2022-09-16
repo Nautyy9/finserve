@@ -1,0 +1,314 @@
+:root {
+    --theme-color: #d2aa4a;
+}
+.theme-color {
+    color: var(--theme-color) !important;
+}
+.theme-color-bg {
+    background-color: var(--theme-color) !important;
+}
+.fin-hero {
+    background: url(../images/loan.jpg) center no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.fin-hero .bg-pill-pattern {
+    background: #fff;
+}
+button.openmodal {
+    top: inherit !important;
+    transform: translateX(2px);
+    background-color: var(--theme-color) !important;
+    bottom: 30px !important;
+}
+.text-theme {
+    color: var(--theme-color);
+}
+.bg-theme {
+    background: var(--theme-color);
+}
+button.openmodal h5 {
+    background-color: var(--theme-color) !important;
+
+}
+.fin-hero h1 {
+    color: #fff;
+}
+.fin-hero p {
+    color: #fff;
+}
+.btn-theme {
+    text-decoration: none;
+    outline: 0;
+    background: var(--theme-color);
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 40px;
+    font-weight: 600;
+}
+
+.btn-theme:hover {
+    background: var(--theme-color);
+    color: #fff !important;
+}
+.fin-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: -15px;
+        margin-right: -15px;
+}
+.fin-col {
+    width: 50%;
+    padding: 15px;
+}
+
+.Akash_Sir_img {
+    width: 100%;
+    height: 566px;
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+.aks-content {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #0000001a;
+}
+.header-transparent button{
+    color: #fff;
+}
+.header-transparent button:hover{
+    color: var(--theme-color);;
+}
+.to-top {
+    background-color: var(--theme-color);
+}
+.bg-btn-pattern {
+    color: #fff;
+    background: var(--theme-color);
+}
+.hvr-radial-in {
+    background: var(--theme-color);
+}
+.hvr-radial-in > div {
+    color: var(--theme-color);
+}
+.hvr-radial-in:hover div {
+    color: #fff;
+}
+.border-list {
+
+}
+.spacer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.border-list li {
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+}
+.cereal-list .relative{
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.cereal-list .relative img {
+    width: 600px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 50px;
+  
+}
+.cr-left {
+
+ width: 100%;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-list a {
+    width: 308px;
+    margin-right: 15entrepreneurpx;
+    margin-top: 15px;
+    padding: 15px;
+    flex-grow: 1;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.center-title {
+    color: var(--theme-color);
+    font-size: 44px;
+    text-align: center;
+    font-weight: bold;
+}
+.akash-box {
+
+}
+.card-styl {
+    position: relative;
+}
+.testi-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -40px;
+    object-position: top;
+    border: 1px solid #d2aa4a;
+}
+.user-box {
+    margin-top: 130px;
+}
+.custom-flex {
+    background-color: #fff;
+        align-items: center;
+}
+.custom-flex .flex-col {
+    border: 1px solid #ddd;
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 4px;
+}
+.main-logo {
+    opacity: 1;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.hvr-radial-in {
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hvr-radial-in h1 {
+    color: #595959;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.crl-point {
+    list-style: square;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.crl-point li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.team-row img {
+    height: 184px;
+    width: 400px;
+    object-fit: cover;
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .fin-hero {
+        background: url(../images/loan.jpg) center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-bottom: 70px;
+        background-size: cover !important;
+}
+
+.header-transparent button {
+    color: #333;
+}
+
+.overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 70px;
+}
+.overlay .close {
+ 
+    color: #000;
+}
+
+.fin-row {
+  
+    flex-direction: column;
+}
+.fin-col {
+    width: 100% !important;
+
+}
+.fin-hero::before {
+    background-size: cover;
+   
+}
+.flex-row {
+    flex-direction: row !important;
+    flex-direction: column !important;
+}
+.cta {
+    background-color: var(--theme-color);
+}
+
+.cereal-list .relative img {
+  
+    margin-left: 0;
+}
+.testi-grid {
+    display: flex !important;
+}
+.card-styl {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#play {
+    overflow: visible;
+    height: 1000px;
+}
+
+.dotclass {
+    display: flex !important;
+        flex-wrap: wrap;
+        flex-direction: row;
+    justify-content: space-around;
+
+}
+.dotclass .last-number-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hvr-radial-in {
+    height: 10rem;
+    width: 10rem;
+}
+.hvr-radial-in p {
+    font-size: 20px;
+}
+.hvr-radial-in h1 {
+    font-size: 14px;
+}
+.other-colm >div {
+
+}
+
+}
